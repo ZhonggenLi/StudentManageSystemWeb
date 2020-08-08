@@ -11,7 +11,7 @@ namespace DatabaseEx
         public MySqlConnection mySqlCon;
         public Dao()
         {
-            String mysqlStr = "Database=student;Data Source=127.0.0.1;User Id=root;Password=li20010309;pooling=false;CharSet=utf8;port=3306";
+            String mysqlStr = "Database=student;Data Source=127.0.0.1;User Id=root;Password=li;pooling=false;CharSet=utf8;port=3306";
             this.mySqlCon = new MySqlConnection(mysqlStr);
             this.mySqlCon.Open();
         }
