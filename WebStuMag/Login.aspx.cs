@@ -24,7 +24,7 @@ namespace WebStuMag
             {
                 tbPassword.Text = Request.Cookies["password"].Value.ToString();
             }
-            MySqlConnection connection = new MySqlConnection("Database=student;Data Source=127.0.0.1;User Id = root; Password = li20010309; pooling = false; CharSet = utf8; port = 3306");
+            MySqlConnection connection = new MySqlConnection("Database=student;Data Source=127.0.0.1;User Id = root; Password = li; pooling = false; CharSet = utf8; port = 3306");
             try
             {
                 connection.Open();
